@@ -1,0 +1,32 @@
+<web-app>
+    <servlet>
+        <servlet-name>adddata</servlet-name>
+        <servlet-class>adddata</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>adddata</servlet-name>
+        <url-pattern>/adddata</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deldata</servlet-name>
+        <servlet-class>deldata</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>deldata</servlet-name>
+        <url-pattern>/deldata</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deleteall</servlet-name>
+        <servlet-class>deleteall</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>deleteall</servlet-name>
+        <url-pattern>/deleteall</url-pattern>
+    </servlet-mapping>
+</web-app>
+
